@@ -1,5 +1,7 @@
+import { ReactNode } from "react";
+
 interface CardProps {
-  children: string;
+  children: ReactNode;
 }
 
 function Card(props: CardProps) {
